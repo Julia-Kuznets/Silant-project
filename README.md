@@ -31,7 +31,7 @@
 1.  **Клонируйте репозиторий:**
     ```bash
     git clone <https://github.com/Julia-Kuznets/Silant-project.git>
-    cd silantproject
+    cd <имя_папки_репозитория>
     ```
 
 2.  **Создайте файл `.env`** в корне проекта со следующим содержимым:
