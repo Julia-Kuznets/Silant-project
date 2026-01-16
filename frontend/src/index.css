@@ -1,0 +1,39 @@
+/* Подключаем Bootstrap стили */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  /* Переменные из ТЗ */
+  --color-blue: #163E6C;
+  --color-red: #D20A11;
+  --color-grey: #EBE6D6;
+  --font-main: 'PT Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+/* Делаем футер прижатым к низу */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Стилизация ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5 {
+  color: var(--color-blue);
+  font-weight: 700;
+}
